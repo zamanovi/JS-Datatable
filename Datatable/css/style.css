@@ -1,0 +1,63 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#datatable{
+	background-color: #2ecc71;
+	padding: 60px 0px;
+}
+.dt{
+	background-color: #fff;
+	padding: 15px 0px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.dt h3{
+	color:#2ecc71;
+	text-transform: uppercase;
+	font-weight: 900;
+	position: relative;
+	top: 5px;
+	letter-spacing: 2px;
+}
+/*show-entries*/
+div#example_length {
+    color: #fff;
+    text-transform: capitalize;
+    /* font-weight: 700; */
+}
+div#example_length label{
+   
+     font-weight: 700; 
+}
+select {
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*search*/
+input[type="search"] {
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#example_filter label{
+	 font-weight: 700; 
+	 color: #fff;
+    text-transform: capitalize;
+}
+div#example_info {
+    color: #fff;
+}
+a#example_previous {
+    color: #fff !important;
+    font-weight: 700;
+}
+a#example_next {
+	 color: #fff !important;
+    font-weight: 700;
+}
